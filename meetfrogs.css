@@ -1,4 +1,4 @@
-a{
+a.navbar {
 	color: white;
 	font-size: 26px;
 	font-weight: 800;
@@ -49,4 +49,18 @@ p {
 
 img {
 	padding: 10px;
+}
+
+a.footer {
+	color: black;
+	font-weight: 800;
+	font-family: Georgia;
+	text-align: center;
+}
+
+#footer {
+	clear: left;
+	padding: 20px 0px;
+	width: 1000px;
+	margin: 0 auto;
 }
