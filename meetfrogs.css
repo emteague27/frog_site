@@ -53,14 +53,24 @@ img {
 
 a.footer {
 	color: black;
+	font-size: 12px;
 	font-weight: 800;
 	font-family: Georgia;
 	text-align: center;
 }
 
+#ad {
+	background-color: #BFF24C;
+	position: fixed;
+		bottom: 5px;
+		right: 10px;
+	width: 125px;
+	opacity: 0.8;
+	padding: 10px 10px 10px 10px;
+	border-radius: 1em;
+}
+
 #footer {
 	clear: left;
-	padding: 20px 0px;
-	width: 1000px;
-	margin: 0 auto;
+	display: inline-block;
 }
