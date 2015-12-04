@@ -1,18 +1,35 @@
-a{
+
+a.navbar {
+	color: white;
+	font-size: 26px;
+	font-weight: 800;
+	font-family: Georgia;
+	text-shadow: 1px 2px darkslategrey;
+}
+
+a:link {
 	text-decoration: none;
-	list-style: none;
 
 }
 
-nav ul{
-	
+nav {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: black;
+	border: 1px solid slategrey;
+	padding: 0px;
+	margin-bottom: 30px;
+}
+
+ul {
+	list-style-type: none;
 	text-align: center;
-	list-style: none;
-
 }
-nav ul li{
-	padding: 10px;
+
+li {
 	display: inline;
+	padding: 5px 40px;
+	margin: 0px 50px;
 }
 
 h2{
