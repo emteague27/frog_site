@@ -7,7 +7,30 @@ body {}
 .image_gallery {position: absolute; z-index: 15;}
 .video {position: fixed; margin-left: 25%; top: 20%; z-index: 20;}
 .pod {position: absolute; left: 0; right: 0; bottom: 0; top: 0; z-index: 5; width: 115%; z-index: 5;}
-.paragraph {border: maroon dotted 5px; background: black; color: white; padding: 10px; margin-right: 250px; margin-top: 550px; margin-left: 300px; text-align: block; margin-bottom: 20px;width: 500px; position: fixed; z-index: 10 ;}
+/*.paragraph {
+	border: maroon dotted 5px; background: black; color: white; padding: 10px; margin-right: 250px; margin-top: 550px; margin-left: 300px; text-align: block; margin-bottom: 20px;width: 500px; position: fixed; z-index: 10 ;}*/
+.paragraph {position: fixed;
+ color: white;
+  margin-right: 250px;
+   margin-top: 550px;
+    margin-left: 300px; 
+    text-align: block; 
+    margin-bottom: 20px;
+    width: 500px;
+	z-index: 10;
+    margin: 30px;
+    background-color: darkblue;
+    border: 1px solid ;
+    opacity: 0.6;
+}
+
+.transbox p {position: fixed;
+	z-index: 10;
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
 a.navbar {
 	color: white;
 	font-size: 26px;
